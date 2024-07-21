@@ -1,4 +1,4 @@
-# Automation Task 2 using Selenium WebDriver, NUnit, and Page Object Pattern
+# Automation Task 3 using Selenium WebDriver, NUnit, and Page Object Pattern
 
 ## Description
 This repository contains a task automation script using Selenium WebDriver, NUnit, and the Page Object Model (POM) concept. The script automates the creation of a new paste on Pastebin (or a similar service) with specified attributes and verifies the correctness of the operation.
@@ -11,21 +11,10 @@ This repository contains a task automation script using Selenium WebDriver, NUni
 
 ## The script performs the following actions:
 
-1. **Open Pastebin Website:**
-   - Navigate to [Pastebin](https://pastebin.com/) or a similar service in any browser.
-
-2. **Create a New Paste with the Following Attributes:**
-   - **Code:**
-     ```bash
-     git config --global user.name "New Sheriff in Town"
-     git reset $(git commit-tree HEAD^{tree} -m "Legacy code")
-     git push origin master --force
-     ```
-   - **Syntax Highlighting:** Bash
-   - **Paste Expiration:** 10 Minutes
-   - **Paste Name / Title:** how to gain dominance among developers
-
-3. **Save the Paste and Verify:**
-   - Check that the browser page title matches the Paste Name / Title.
-   - Verify that the syntax highlighting is set to Bash.
-   - Ensure that the pasted code matches the provided code.
+1. Opens the [Google Cloud Pricing Calculator](https://cloud.google.com/).
+2. Clicks on the "Add to estimate" button.
+3. Selects "Compute Engine".
+4. Fills out the form with specific data.
+5. Clicks "Share" to see the total estimated cost.
+6. Clicks "Open estimate summary" to view the Cost Estimate Summary in a new tab.
+7. Verifies that the 'Cost Estimate Summary' matches the filled values.
